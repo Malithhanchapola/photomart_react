@@ -1,0 +1,31 @@
+.addButton{
+    width: 230px;
+    height: 300px;
+    border: 2px solid rgb(213, 207, 207);
+    margin-top: 40px;
+    text-align: center;
+    /* margin-right: 25px; */
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+
+}
+
+.addButton:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+.inputButton input[type="submit"]{
+    color: rgb(123, 123, 123);
+    width: 230px;
+    height: 300px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Lato',sans-serif;
+    background-color: white;
+    border: none;
+    
+}

@@ -1,0 +1,12 @@
+.booking-cards-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* width: 100%; */
+}
+
+.booking-cards-container h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

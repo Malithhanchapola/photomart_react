@@ -1,0 +1,96 @@
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%;
+    justify-content: center; */
+}
+
+.container {
+    margin-top: 40px;
+    /* margin-right: 200px; */
+    width: 180px;
+    height: 250px;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 8px #ccc;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container:hover{
+    box-shadow: 7px 7px 12px 0 rgba(0,0,0,0.2);
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+form {
+    margin: 2%;
+    width: 100%;
+    max-width: 80%;
+    padding: 1rem;
+}
+
+.inputfield-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.input-group label {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    color: rgb(120, 116, 116);
+}
+
+.input-group input {
+    width: 300px;
+    height: 30px;
+    display: flex;
+}
+
+.add-btn {
+    width: 100px;
+    height: 45px;
+    /* border-radius: 15px; */
+    margin-top: 15px;
+    /* background: rgb(255, 255, 255); */
+    /* border-color: rgb(180, 180, 180); */
+    /* font-size: 1.1rem; */
+    /* color:rgb(0, 0, 0); */
+    /* font-weight: 900; */
+    cursor: pointer;
+    background: transparent;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    max-width: 120px;
+    border: 2px solid rgb(126, 126, 126) ;
+    align-content: center;
+}
+
+.add-btn:hover {
+    /* background-color: #000000;
+    color: white;
+    box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+    transition: all ease 0.1s; */
+
+    background: #23cdaf;
+    border: #23cdaf;
+    color: white;
+    transition: all ease 0.2s;
+}

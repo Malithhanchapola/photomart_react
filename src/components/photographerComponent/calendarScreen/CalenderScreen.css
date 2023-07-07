@@ -1,0 +1,57 @@
+.calendar-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.calendarContainer {
+    margin: 50px;
+}
+
+.highlight-block{
+    color:whitesmoke;
+    background-color: rgb(221, 73, 73) !important;
+}
+
+.highlight-pending{
+    color : #222;
+    background-color: yellow !important;
+}
+
+.highlight-confirmed{
+    color:whitesmoke;
+    background-color: rgb(122, 203, 1)  !important;
+}
+
+.add-btn {
+    width: 100px;
+    height: 45px;
+    /* border-radius: 15px; */
+    margin-top: 15px;
+    /* background: rgb(255, 255, 255); */
+    /* border-color: rgb(180, 180, 180); */
+    /* font-size: 1.1rem; */
+    /* color:rgb(0, 0, 0); */
+    /* font-weight: 900; */
+    cursor: pointer;
+    background: transparent;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    max-width: 120px;
+    border: 2px solid rgb(126, 126, 126) ;
+    align-content: center;
+}
+
+.add-btn:hover {
+    /* background-color: #000000;
+    color: white;
+    box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+    transition: all ease 0.1s; */
+
+    background: #23cdaf;
+    border: #23cdaf;
+    color: white;
+    transition: all ease 0.2s;
+}

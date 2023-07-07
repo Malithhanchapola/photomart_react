@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+  background-size: cover;
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+  justify-content: center;
+  align-items: center;
+}
+
+.cancelBtn {
+  display: flex;
+  width: 80%;
+  justify-content: flex-end;
+}
+
+.cancelBtn button {
+  color: rgba(0, 0, 0, 0.5);
+  background: none;
+  border: none;
+  font-size: 30px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.login-form-container {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 35px;
+  border-radius: 10px;
+}
+
+.login-form-titel {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  padding: 8%;
+}
+
+.titel-1 {
+  display: flex;
+  width: 50%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2); */
+}
+
+.titel-2 {
+  display: flex;
+  width: 50%;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #23cdaf; */
+  /* color: white; */
+  /* box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2); */
+  /* transition: all ease 0.2s; */
+}
+
+.titel-onClick {
+  background-color: #23cdaf;
+  color: white;
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+}
+
+.titel-1:hover {
+  background-color: #23cdaf;
+  color: white;
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+  transition: all ease 0.2s;
+}
+.titel-2:hover {
+  background-color: #23cdaf;
+  color: white;
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+  transition: all ease 0.2s;
+}
+
+.login-form-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form-1 form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.input-container p{
+  color: red;
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+.login-form-1 form p{
+  color: red;
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+
+.input-container input {
+  padding-left: 10px;
+  border-radius: 5px;
+  background: whitesmoke;
+  width: 350px;
+  height: 40px;
+}
+.input-container-btn {
+  margin-bottom: 25px;
+}
+.input-container-btn button {
+  border-radius: 20px;
+  padding: 10px;
+  width: 100px;
+  font-family: "Lato";
+  font-weight: 800;
+  font-size: 16px;
+  border: 1px solid;
+  background-color: azure;
+  /* margin-left: 60px; */
+}
+.input-container-btn button:hover {
+  color: azure;
+  background-color: #23cdaf;
+  border: 1px solid #23cdaf;
+  transition: all ease 0.2s;
+}

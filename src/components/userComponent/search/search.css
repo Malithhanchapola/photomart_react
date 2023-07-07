@@ -1,0 +1,29 @@
+.search {
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 10%;
+
+}
+.searchInputs {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchInputs input{
+    width: 650px;
+    height: 40px;
+    align-items: center;
+
+    border-radius: 20px;
+    border-color: rgba(5, 163, 163, 0.395);
+}
+
+.searchIcon {
+    margin-left: 10px;
+    align-items: center;
+}

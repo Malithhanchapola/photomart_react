@@ -1,0 +1,37 @@
+.sideMenuItemContainer {
+    margin-right: 100px;
+    /* position: fixed; */
+    /* flex: 2; */
+}
+
+.sideMenu a {
+    text-decoration: none;
+    height: 70px;
+    width: 250px;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Lato', 'San-serif';
+}
+
+.sideMenu a:hover {
+    background-color: #23cdaf;
+    color: white;
+    box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+    transition: all ease 0.2s;
+}
+
+.sideMenuClick a{
+    background-color: #23cdaf;
+    color: white;
+    box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+    transition: all ease 0.2s;
+}

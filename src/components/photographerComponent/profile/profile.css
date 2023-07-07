@@ -1,0 +1,108 @@
+.profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.profile-img-container img{
+    max-width: 100%;
+    max-width: 100%;
+    border-radius: 100px;
+    background-size: cover;
+}
+
+.profile-img-container {
+    margin-top: 40px;
+    width: 100px;
+    height: 100px;
+    /* height: 250px; */
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 8px #ccc;
+    /* padding: 10px; */
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.profileForm{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-column-1{
+    margin-right: 10%;
+  }
+  
+  .form-column-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+  }
+
+  .form-form-1 form{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .form-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  
+  .input-container{
+    padding-bottom: 30px;
+  }
+  
+  .input-container input{
+    padding-left: 10px;
+    border-radius: 5px;
+    background: whitesmoke;
+    width: 350px;
+    height: 40px;
+  }
+
+  .input-container textarea{
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    background: whitesmoke;
+    width: 350px;
+    height: 180px;
+  }
+
+  .input-container-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  .input-container-btn button{
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    font-family: 'Lato';
+    font-weight: 800;
+    font-size: 16px;
+    border: 1px solid;
+    background-color:  azure;
+    /* margin-left: 60px; */
+  
+  }
+  .input-container-btn button:hover{
+    color:  azure;
+    background-color: #23cdaf;
+    border: 1px solid #23cdaf;
+    transition: all ease 0.2s;
+  
+  }

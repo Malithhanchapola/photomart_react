@@ -1,0 +1,92 @@
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+}
+.navbar {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.navbar img {
+    border-radius: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+}
+
+.navbarlist {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lato', 'San-serif';
+
+}
+
+.navbarlist p {
+    margin: 5px;
+}
+
+
+.gpt3__navbar-singOut button{
+    padding: 1rem 1rem;
+    color: #fff;
+    background: crimson;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: none;
+    cursor: pointer;
+    
+}
+
+.gpt3__navbar-singOut button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.navbar-dashbord{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 50px;
+    /* padding: 0 20px 0 10px; */
+}
+
+.navbar-dashbord button{
+    padding: 1rem 1rem;
+    color: black;
+    background: #fff;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: none;
+    cursor: pointer;
+    
+}
+
+.navbar-dashbord button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.navbar-dashbord-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

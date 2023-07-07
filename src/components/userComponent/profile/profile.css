@@ -1,0 +1,6 @@
+.user-profile{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  height: 80lvh;
+}

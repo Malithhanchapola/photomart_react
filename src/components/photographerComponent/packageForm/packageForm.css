@@ -1,0 +1,72 @@
+.packageForm{
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+.packageForm{
+    padding-top: 20px;
+}
+
+.packForm{
+    width: 100%;
+    margin: 0;
+
+}
+
+.packFormBox{
+    position: relative;
+    width: 90%;
+}
+
+.packFormBox .row50{
+    display: flex;
+    gap: 20px;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 10px; */
+    width: 50%;  
+}
+
+.packFormBox .row100 .inputBox{
+    width: 100%;
+}
+
+.inputBox span{
+    color: rgb(126, 126, 126);
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.inputField{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(126, 126, 126) ;
+}
+#textArea{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid rgb(126, 126, 126) ;
+    margin-bottom: 20px;
+}
+
+.inputBox input[type="submit"]{
+    background: transparent;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    max-width: 120px;
+    border: 2px solid rgb(126, 126, 126) ;
+}
+
+.inputBox input[type="submit"]:hover{
+    background: #23cdaf;
+    border: #23cdaf;
+    color: white;
+    transition: all ease 0.2s;
+}

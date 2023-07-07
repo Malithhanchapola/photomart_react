@@ -1,0 +1,120 @@
+.booking_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photograper-studio_title_container{
+    display: flex;
+    justify-content: center;
+    padding: 15% 0 5% 0;
+}
+
+.booking_package_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 8%;
+}
+.booking_package_container h2{
+    display: flex;
+    justify-content: center;
+}
+
+.booking_package{
+    display: flex;
+    justify-content: center;
+    margin-left: 14%;
+    margin-top: 7%;
+}
+
+.booking_portfolios_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 8%;
+}
+.booking_portfolios_container h2{
+    display: flex;
+    justify-content: center;
+}
+
+.booking_portfolios{
+    display: flex;
+    justify-content: center;
+    margin-left: 14%;
+    margin-top: 7%;
+}
+
+.studio_title_container{
+    margin-bottom: 15%;
+}
+
+.photograper-studio_title_container h2{
+    text-align: center;
+    color: rgb(102, 107, 107);
+}
+
+.calender{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.calender_container{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    margin-bottom: 13%;
+}
+
+.package_container{
+    text-align: center;
+    color: rgb(102, 107, 107);
+}
+
+.studio_package_container h2{
+    text-align: center;
+    color: rgb(102, 107, 107);
+}
+
+
+.booking_contacts_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.booking_contacts{
+    display: flex;
+    align-items: center;
+}
+.booking_contacts h3{
+   margin-left: 10%;
+}
+.booking_button_container{
+    display: flex;
+    justify-content: center;
+    margin: 150px 0 100px 0;
+}
+
+.booking_button_container button{
+    border-radius: 30px;
+    padding: 20px;
+    width: 150px;
+    font-family: 'Lato';
+    font-weight: 800;
+    font-size: 16px;
+    border:1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.booking_button_container button:hover{
+    color: white;
+    background-color: #23cdaf;
+    border:1px solid #23cdaf;
+    transition: all ease 0.2s;
+}

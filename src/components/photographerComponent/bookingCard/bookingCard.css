@@ -1,0 +1,80 @@
+.booking-card-continer{
+    display: flex;
+    background-color: azure;
+    justify-content: center;
+    align-items: center;
+    width: 70rem;
+    height: 10rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding-bottom: 35px; */
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+}
+
+.row-continer-1{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.column-continer-1{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: center; */
+}
+
+.column-continer-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.column-continer-2 button{
+    justify-items: end;
+    border-radius: 20px;
+    padding: 7px;
+    width: 70px;
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 60px;
+}
+
+.column-continer-2 button:hover{
+    color: white;
+    transition: all ease 0.2s;
+
+}
+
+.confirm-btn{
+    border: 2px #23cdaf solid;
+}
+
+.confirm-btn:hover{
+    background-color: #23cdaf;
+    border: 2px #23cdaf solid;
+}
+
+.cancel-btn{
+    border: 2px red solid;
+}
+
+.cancel-btn:hover{
+    background-color: red;
+    border: 2px red solid;
+}
+
+.remove-btn{
+    border: 2px red solid;
+}
+
+.remove-btn:hover{
+    background-color: red;
+    border: 2px red solid;
+}

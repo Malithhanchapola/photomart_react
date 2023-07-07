@@ -1,0 +1,92 @@
+.portfolioContainer{
+    width: 230px;
+    height: 300px;
+    border: 2px solid rgb(213, 207, 207);
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 25px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.portfolioContainer:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.portfolioImg{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.overlayBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.portfolioImg button{
+    
+    color: rgba(245, 245, 245, 0.525);
+    background: none;
+    border: none;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-right: 100px;
+    /* jusify-content: end; */
+    
+}
+
+/* .floatOverlay{
+    display: "grid"
+    placeItems: "center",background: "rgba(25, 25, 25, 0.8)"
+} */
+
+
+.portfolioNames{
+    font-family: 'Lato';
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.portfolioLocation{
+    font-family: 'Lato';
+    font-size: 12px;
+    color: grey;
+}
+
+.portfolioDel{
+    margin-top: 30px;
+    align-items: center;
+    
+}
+
+.portfolioDelBtn{
+    border-radius: 50px;
+    padding: 10px;
+    width: 100px;
+    font-family: 'Lato';
+    font-weight: 800;
+    font-size: 16px;
+    background-color: white;
+    margin-left: 60px;
+
+
+
+}
+.portfolioDelBtn:hover{
+    color: white;
+    background-color: #23cdaf;
+    border: #23cdaf;
+    transition: all ease 0.2s;
+
+}
